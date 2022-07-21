@@ -1,0 +1,26 @@
+#wrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#background {
+    display: flex;
+    width: 40vw;
+    height: 100vh;
+    outline: 5px solid slateblue;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 100vh;
+    outline: 5px solid green;
+}
+
+ul {
+    list-style: none;
+}
