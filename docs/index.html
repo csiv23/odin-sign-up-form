@@ -11,48 +11,61 @@
 </head>
 
 <body>
+
+
+
     <div id="wrapper">
-    <img id = "background" src="images/background.avif" alt="Leaves Background">
+        <img id="background" src="images/background.avif" alt="Leaves Background">
 
-    <form action="/my-handling-form-page" method="post">
-        <ul>
-            <li>
-                <label for="first">First Name</label>
-                <input type="text" id="first" name="first_name" required>
-            </li>
+        <div id="content-wrapper">
+            <h1>
+                This is not a real online service! You know you need something like this in your life to help you
+                realize
+                your deepest dreams. Sign up now to get started.
+            </h1>
 
-            <li>
-                <label for="last">Last Name</label>
-                <input type="text" id="last" name="last_name" required>
-            </li>
-            <li>
-                <label for="mail">E-mail:</label>
-                <input type="email" id="mail" name="user_email" required>
-            </li>
-            <li>
-                <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-            </li>
+            <h2>
+                You know you want to.
+            </h2>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                    <li>
+                        <label for="first">First Name</label>
+                        <input type="text" id="first" name="first_name" required>
+                    </li>
 
-            <li>
-                <label for="password">Password</label>
-                <input type="text" id="pass" name="password" required>
-            </li>
+                    <li>
+                        <label for="last">Last Name</label>
+                        <input type="text" id="last" name="last_name" required>
+                    </li>
+                    <li>
+                        <label for="mail">E-mail</label>
+                        <input type="email" id="mail" name="user_email" required>
+                    </li>
+                    <li>
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    </li>
 
-            <li>
-                <label for="confirm">Confirm Password</label>
-                <input type="text" id="confirm" name="comfirm" required>
-            </li>
+                    <li>
+                        <label for="password">Password</label>
+                        <input type="text" id="pass" name="password" required>
+                    </li>
 
-            <li class="button">
-                <button type="submit">Create Account</button>
-              </li>
+                    <li>
+                        <label for="confirm">Confirm Password</label>
+                        <input type="text" id="confirm" name="confirm" required>
+                    </li>
 
-        </ul>
-    </form>
-</div>
+                    <li class="button">
+                        <button type="submit" id = "submit">Create Account</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
 
-    <script src="" async defer></script>
+    <script src="form.js" async defer></script>
 </body>
 
 </html>
